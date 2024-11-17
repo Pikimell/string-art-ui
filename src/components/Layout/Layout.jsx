@@ -6,7 +6,7 @@ import style from './Layout.module.css';
 
 const Layout = ({ children }) => {
   return (
-    <div>
+    <div className="container">
       <Header />
       <Suspense loading={<Loader />}>{children}</Suspense>
       <Footer />
