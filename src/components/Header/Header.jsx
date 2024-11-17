@@ -4,8 +4,7 @@ import { useState } from 'react';
 
 const Header = ({}) => {
   return (
-    <header>
-      <h1>String Art</h1>
+    <header className={style.header}>
       <Navigation />
     </header>
   );

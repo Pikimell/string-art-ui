@@ -1,0 +1,17 @@
+.link {
+  transition: all 0.1s;
+  padding: 0 5px;
+}
+
+.link:hover {
+  color: rgb(246, 214, 214);
+  border: none;
+  text-decoration: none;
+}
+
+.link.active {
+  color: rgb(255, 96, 96);
+  outline: none;
+  border: none;
+  transform: scale(1.01);
+}

@@ -32,3 +32,9 @@ body {
     width: 320px;
   }
 }
+
+a:focus {
+  border: none;
+  text-decoration: none;
+  outline: none;
+}
